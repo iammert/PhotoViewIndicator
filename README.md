@@ -1,6 +1,3 @@
-# PhotoViewIndicator
-Indicator for PhotoView Library https://github.com/chrisbanes/PhotoView
-
 <img src="https://raw.githubusercontent.com/iammert/PhotoViewIndicator/master/art/art.png"/>
 
 [GIF](https://github.com/iammert/PhotoViewIndicator/blob/master/art/2019_01_20_23_43_14.gif)
