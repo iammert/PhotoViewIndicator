@@ -6,7 +6,15 @@ Indicator for PhotoView Library https://github.com/chrisbanes/PhotoView
 [GIF](https://github.com/iammert/PhotoViewIndicator/blob/master/art/2019_01_20_23_43_14.gif)
 
 ## Usage
-```java
+```xml
+<com.iammert.photoviewindicatorlib.PhotoViewIndicator
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:barColor="#80232323"
+        app:indicatorColor="#FFFFFF"/>
+```
+
+```kotlin
 val photoView: PhotoView = findViewById(R.id.photoView)
 val indicator: PhotoViewIndicator = findViewById(R.id.indicator)
 indicator.setPhotoView(photoView)
