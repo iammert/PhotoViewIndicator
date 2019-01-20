@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val photoView = findViewById<PhotoView>(R.id.photoView)
+        val photoView: PhotoView = findViewById(R.id.photoView)
         val indicator = findViewById<PhotoViewIndicator>(R.id.indicator)
 
         indicator.setPhotoView(photoView)
