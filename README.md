@@ -27,7 +27,7 @@ allprojects {
 ```
 ```
 dependencies {
-    implementation 'com.github.iammert:PhotoViewIndicator:1.0.0'
+    implementation 'com.github.iammert:PhotoViewIndicator:0.1'
 }
 ```
 
